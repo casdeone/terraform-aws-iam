@@ -3,7 +3,8 @@ resource "aws_iam_user" "casde1_test" {
   name                 = "casde1-test"
   permissions_boundary = var.permissions_boundary
   tags = {
-    tag-key = "test_user"
+    department = "test_user"
+    deployed_by = "terraform"
   }
 }
 
