@@ -11,7 +11,7 @@ terraform {
   cloud {
     organization = "denniscastillo"
     workspaces {
-      name = "dev_casdeone_aws_msk"
+      name = "terraform-aws-iam"
     }
   }
 
