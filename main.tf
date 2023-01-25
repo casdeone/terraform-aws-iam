@@ -23,3 +23,6 @@ resource "aws_iam_group_membership" "team" {
 }
 
 
+resource "aws_glue_registry" "example" {
+  registry_name = "datahub"
+}
